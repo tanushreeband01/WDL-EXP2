@@ -1,0 +1,102 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f1f5f9;
+}
+
+/* Header */
+header{
+background:#1e40af;
+color:white;
+padding:20px;
+text-align:center;
+font-size:26px;
+}
+
+/* Navigation */
+nav{
+background:#2563eb;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-size:18px;
+}
+
+/* Layout */
+.main{
+display:flex;
+min-height:900px;
+}
+
+/* Sidebar */
+.sidebar{
+width:220px;
+background:#111827;
+color:white;
+padding-top:20px;
+}
+
+.sidebar a{
+display:block;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+background:#374151;
+}
+
+/* Content */
+.content{
+flex:1;
+padding:30px;
+overflow-y:auto;
+}
+
+/* Section Box */
+.section{
+background:white;
+padding:20px;
+margin-bottom:25px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+/* Form */
+label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+input,select{
+width:100%;
+padding:8px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+margin-top:15px;
+padding:10px 20px;
+background:#16a34a;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* Footer */
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+}
